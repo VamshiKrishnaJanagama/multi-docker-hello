@@ -1,11 +1,11 @@
 version: '3.2'
 services:
   backend1:
-      image: rafaelmarques7/hello-node:latest
+      image: vamshivardhank/multi-docker-hello:latest
   backend2:
-      image: rafaelmarques7/hello-node:latest
+      image: vamshivardhank/multi-docker-hello:latest
   backend3:
-      image: rafaelmarques7/hello-node:latest
+      image: vamshivardhank/multi-docker-hello:latest
   loadbalancer:
       image: nginx:latest
       links:
