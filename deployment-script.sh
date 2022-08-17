@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # basic patching
-sudo yum -y update
+sudo apt-get update
 
 # docker
-sudo yum -y install docker
+sudo apt install docker.io -y
 sudo service docker start
 
 # docker-compose
@@ -13,7 +13,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 # git
-sudo yum -y install git
+sudo apt install git -y
 
 # clone repo
 cd /home/ubuntu
