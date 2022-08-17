@@ -1,9 +1,9 @@
 # Buildm and tag using:
-#   sudo docker build -t rafaelmarques7/hello-node:latest .
+#   sudo docker build -t vamshivardhank/multi-docker-hello:latest .
 # Push to docker hub
-#   sudo docker push rafaelmarques7/hello-node:latest
+#   sudo docker push vamshivardhank/multi-docker-hello:latest
 # Run using:
-#   sudo docker run -d -p 80:80 rafaelmarques7/hello-node:latest
+#   sudo docker run -d -p 80:80 vamshivardhank/multi-docker-hello:latest
 
 FROM node:8-alpine
 
