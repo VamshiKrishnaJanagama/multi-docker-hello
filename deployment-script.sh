@@ -16,8 +16,8 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo yum -y install git
 
 # clone repo
-cd /home/ec2-user
-sudo git clone https://github.com/rafaelmarques7/multi-docker-hello.git
+cd /home/ubuntu
+sudo git clone https://github.com/vamshitestdevops/multi-docker-hello.git
 
 # cd to repo
 cd multi-docker-hello/
